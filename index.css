@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: rgb(234, 244, 253);
+}
+
+@font-face {
+    font-family: "coolvetica";
+    src: url(coolvetica/Coolvetica\ Rg.otf);
+}
+
+h2{
+    background-color: rgb(146, 180, 204);
+    font-family: "coolvetica";
+    word-spacing: 3px;
+    text-align: center;
+    color: rgb(31, 67, 145);
+}
+
+/* style header */
+.header,img.banner{
+  width: 1500px;
+  height: 200px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+/* style nav menu */
+.topnav{
+    overflow: hidden;
+    background-color: rgb(48, 84, 174);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: rgb(134, 191, 252);
+    color: rgb(109, 154, 238);
+}
+
+/* style content */
+.column{
+    float: left;
+    padding: 10px;
+}
+
+.column.side{
+    width: 25%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.footer{
+    background-color: rgb(48, 84, 174);
+    padding: 10px;
+    text-align: center;
+    font-family: "coolvetica";
+}
+
+/* STYLE PADA TABLE */
+table,th,td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 42%;
+    font-family: "coolvetica";
+    word-spacing: 2px;
+}
+
+th,td{
+    padding: 5px;
+}
+
+tr{
+    background-color: skyblue;
+}
+
+tr:nth-child(.even){
+    background-color: cornflowerblue;
+}
+
+tr:hover{
+    background-color: coral;
+}
+
+table.tugas{
+    border-collapse: collapse;
+    width: 20%;
+}
+
+ol.contoh{
+    list-style-type: upper-roman;
+    background: rgb(237, 237, 156);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol.contoh li{
+    background: orange;
+    margin: 5px;
+    word-spacing:normal;
+}
+
+ol.contoh li:hover{
+    background: rgb(114, 189, 254);
+}
+
+ul.lorem{
+    background: rgb(33, 103, 196);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.lorem li{
+    background: rgb(156, 211, 237);
+    margin: 5px;
+}
+
+ul.lorem li:hover{
+    background: rgb(249, 254, 114);
+}
+
+ul.icon{
+    background: rgb(148, 255, 72);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.icon li{
+    background: rgb(198, 255, 167);
+    margin: 5px;
+}
+
+ul.icon li:hover{
+    background: rgb(249, 254, 114);
+}
+
+i.fas fa-book{
+    color: rgb(33, 103, 196);
+}

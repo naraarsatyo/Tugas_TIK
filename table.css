@@ -1,0 +1,30 @@
+/* STYLE PADA TABLE */
+table,th,td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 42%;
+}
+
+th,td{
+    padding: 5px;
+}
+
+tr{
+    background-color: skyblue;
+}
+
+tr:nth-child(.even){
+    background-color: cornflowerblue;
+}
+
+tr:hover{
+    background-color: coral;
+}
+
+table.tugas{
+    border-collapse: collapse;
+    width: 20%;
+}
